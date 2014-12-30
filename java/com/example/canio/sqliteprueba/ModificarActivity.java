@@ -37,13 +37,13 @@ public class ModificarActivity extends Activity implements OnClickListener {
 
         Intent intent = getIntent();
         String id = intent.getStringExtra("id");
-        String name = intent.getStringExtra("titulo");
-        String desc = intent.getStringExtra("contenido");
+        String titu = intent.getStringExtra("titulo");
+        String conte = intent.getStringExtra("contenido");
 
         _id = Long.parseLong(id);
 
-        titulo.setText(name);
-        contenido.setText(desc);
+        titulo.setText(titu);
+        contenido.setText(conte);
 
         updateBtn.setOnClickListener(this);
         deleteBtn.setOnClickListener(this);
