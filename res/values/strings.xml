@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgendatoString</string>
+    <string name="enter_name">Escriba un nombre</string>
+    <string name="add_record">Añadir Registro</string>
+    <string name="export_records">Exportar a Excel</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="empty_list_text">No se encuentran nada</string>
+    <string name="enter_desc">Nota</string>
+    <string name="enter_title">Titulo</string>
+</resources>
