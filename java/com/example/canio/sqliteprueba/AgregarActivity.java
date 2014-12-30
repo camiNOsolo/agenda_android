@@ -37,9 +37,9 @@ public class AgregarActivity extends Activity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.add:
-                final String name = tituloEditText.getText().toString();
-                final String desc = contenidoEditText.getText().toString();
-                dbController.insert(name, desc);
+                final String titu = tituloEditText.getText().toString();
+                final String conte = contenidoEditText.getText().toString();
+                dbController.insert(titu, conte);
 
                 Intent main = new Intent(AgregarActivity.this, MainActivity.class)
                         .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
